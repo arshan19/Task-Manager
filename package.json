@@ -1,0 +1,21 @@
+{
+  "name": "taskmanager-backend-api",
+  "version": "1.0.0",
+  "description": "\"this is node/express project to make to TODO List app (Task Manager)\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Syed Arshan Ali",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
